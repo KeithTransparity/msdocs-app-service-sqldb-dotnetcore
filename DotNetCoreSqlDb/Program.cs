@@ -10,7 +10,7 @@ builder.Services.AddStackExchangeRedisCache(options =>
 {
     options.Configuration = builder.Configuration["msdocs-core-sql-121273-cache.redis.cache.windows.net:6380,password=hEuQKExJTerr2suEqNL7pMOc76rLUAVkkAzCaKsx0vM=,ssl=True,defaultDatabase=0"];
     options.InstanceName = "SampleInstance";
-};
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
